@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Todo-list
+{
+  width: 100vw;
+  height: 100vh;
+  background: url(back.jpg) center/cover no-repeat;
+  position: relative;
+}
+.Constain{
+  width: 500px;
+  height: 500px;
+  background:linear-gradient(45deg, blue, gray);
+  margin: auto;
+  transform: translateY(100px);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+.Title
+{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+/* Form */
+.Control{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.Todo_form
+{
+  background: white;
+  outline: none;
+  border: none;
+  padding:5px 10px;
+  width: 80%;
+}
+.Todo_btn
+{
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+/* Todo item */
+.Todo_item
+{
+  width: 90%;
+  margin: 10px auto;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+.Todo_item:hover{
+  background:linear-gradient(45deg,rgb(172, 240, 172), rgb(248, 166, 166));
+  
+}
+.Todo_item:hover .edit-icon{
+  color: rgb(115, 241, 115);
+  font-weight: bold;
+}
+.Todo_item_content
+{
+  width: 80%;
+  padding: 10px 10px;
+  text-transform: initial;
+  font-size: 20px;
+}
+.icons
+{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.delete-icon
+{
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.delete-icon:hover{
+  transform: scale(1.2);
+}
+.edit-icon
+{
+  font-size: 20px;
+  color: green;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.edit-icon:hover{
+  transform: scale(1.2);
+}
+.complete{
+  opacity: 0.5;
+}
+.uncomplete{
+  opacity: 1;
+}
+/* update */
+.Todo-update{
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn_update{
+  background: linear-gradient(45deg,#7593e8 , #f29a87);
+  border: none;
+}
