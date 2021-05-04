@@ -23,7 +23,7 @@ function Form(props) {
     if(props.edit==null)
         return (
             <div className={props.className}>
-                    <input type="text" placeholder={(input!=='')?input:"Add a Todo"} value={input} className="Todo_form" onChange={change}/>
+                    <input type="text" placeholder="Add a Todo" value={input} className="Todo_form" onChange={change}/>
                     <button className="Todo_btn" onClick={(props.edit)?Update:Submit}>Add</button>
             </div>
         )
@@ -31,7 +31,7 @@ function Form(props) {
     {
         return (
             <div className={props.className}>
-                    <input type="text" placeholder={(input!=='')?input:"Update"} value={input}  className="Todo_form" onChange={change}/>
+                    <input type="text" placeholder="Update" value={input}  className="Todo_form" onChange={change}/>
                     <button className="Todo_btn btn_update" onClick={(props.edit)?Update:Submit}>Update</button>
             </div>
         )
