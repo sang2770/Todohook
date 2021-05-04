@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Todohook/static/css/main.fcb8b4a2.chunk.css",
-    "main.js": "/Todohook/static/js/main.f2996b02.chunk.js",
-    "main.js.map": "/Todohook/static/js/main.f2996b02.chunk.js.map",
+    "main.js": "/Todohook/static/js/main.5746a73c.chunk.js",
+    "main.js.map": "/Todohook/static/js/main.5746a73c.chunk.js.map",
     "runtime-main.js": "/Todohook/static/js/runtime-main.6f1aff1c.js",
     "runtime-main.js.map": "/Todohook/static/js/runtime-main.6f1aff1c.js.map",
     "static/js/2.981ed6ba.chunk.js": "/Todohook/static/js/2.981ed6ba.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.6f1aff1c.js",
     "static/js/2.981ed6ba.chunk.js",
     "static/css/main.fcb8b4a2.chunk.css",
-    "static/js/main.f2996b02.chunk.js"
+    "static/js/main.5746a73c.chunk.js"
   ]
 }
