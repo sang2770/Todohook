@@ -18,11 +18,15 @@ function Todo({todo, remove, update, Complete}) {
             text:''
         })
     }
-    if(edit.id!=null)
-    {
-        return <Form  className="Todo-update" submit={changeUpdate} edit={edit.id} text={edit.text}/>
-    }
     return todo.map((item, index)=>{
+        // if(edit.id!=null)
+        // {
+        
+        // }
+        if(edit.id===item.id)
+        {
+            return <Form  className="Todo-update" submit={changeUpdate} edit={edit.id} text={edit.text}/>
+        }
         return (
             <div key={index}  className={item.isComplete?"Todo_item complete":"Todo_item uncomplete"} >
                 <h2 className="Todo_item_content"  onClick={changeComplete.bind(this, item.id)}>{item.text}</h2>
